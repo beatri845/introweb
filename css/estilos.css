@@ -1,0 +1,27 @@
+html,body{
+	height: 100%;
+}
+body{background:linear-gradient(to bottom, rgba(19,99,133,1) 0%, rgba(22,129,167,1) 20%, rgba(26,170,213,0.93) 47%, rgba(148,206,229,0.8) 94%, rgba(153,208,230,0.8) 96%);
+}	
+h1{
+	color: #D7E386;
+	font-family: 'Pacifico', cursive;
+	letter-spacing: 0.1em;
+	text-align: center;
+	text-shadow: 0 0 0.5em white;
+}
+.galeria{
+	
+	display: flex;
+	justify-content: space-around;
+	margin: 0 auto;
+	width: 80%
+}
+.galeria div{
+	filter: grayscale(1);
+
+}
+.galeria div:hover{
+	filter: grayscale(0);
+
+}
